@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> CONTACT</title>
+    <meta content="kursad ozduman,html,css,assigment2,georgebrown," name="keywords">
+    <meta content="Kursad Ozduman home page" name="description">
+    <meta content="Kursad Ozduman" name="author">
+    <meta content="width=device-width' initial-scale=1.0" name="viewport">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        #googleMap {
+
+            margin-top: 100px;
+            margin-left: 50px;
+            height: 400px;
+            width: 600px;
+
+        }
+    </style>
+
+</head>
+<body class="body">
+<div>
+    <nav>
+
+        <ul>
+            <li>
+                <a href="index.html"> Home </a>
+            </li>
+            <li>
+                <a href="resume.html"> Resume</a>
+            </li>
+            <li>
+                <a href="list.html"> List</a>
+            </li>
+            <li>
+                <a href="table.html"> Table</a>
+            </li>
+            <li>
+                <a href="contact.html"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div>
+    <h1>
+        Contact e-mail
+    </h1>
+
+    <p>
+
+        <a href="mailto:kursad.ozduman@georgebrown.ca?Subject=Assigment%202&body=Student%20Id:%20101275457%0A%0AKursad%20Ozduman%20"
+           target="_top">
+            Contact to Me via email
+        </a>
+
+    </p>
+</div>
+
+
+<div id="googleMap"></div>
+
+
+<script>
+    function myMap() {
+        var mapProp = {center: new google.maps.LatLng(43.67577153, -79.41057444), zoom: 17};
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        var marker = new google.maps.Marker({position: mapProp, animation: google.maps.Animation.BOUNCE});
+
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCISMywjXSftscmoLvUTLbuzEXiwZnC304&callback=myMap"></script>
+
+<script src=https://my.gblearn.com/js/loadscript.js></script>
+<a href="peerReviewFormA2%20kursad.pdf" style="color: #ff253a;margin-left: 500px"> Download for Review</a>
+</body>
+</html>

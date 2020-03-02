@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> RESUME</title>
+    <meta content="kursad ozduman,html,css,assigment2,georgebrown," name="keywords">
+    <meta content="Kursad Ozduman home page" name="description">
+    <meta content="Kursad Ozduman" name="author">
+    <meta content="width=device-width' initial-scale=1.0" name="viewport">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .img {
+            position: relative;
+            left: 1000px;
+            width: 20px;
+            height: 20px;
+        }
+
+        #list ul li {
+            background-color: beige;
+        }
+
+        .baslik {
+            padding-bottom: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Arial Black";
+        }
+
+        .palace {
+            display: flex;
+            font-family: "Times New Roman";
+            font-size: 18px;
+            padding-top: 25px;
+            margin-bottom: 15px;
+            /*border-bottom: 1px solid lightgray;*/
+        }
+
+        .palace:last-child {
+            border-bottom: none;
+        }
+
+        .job {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+
+        }
+
+        .date {
+            font-style: italic;
+            border-bottom: 2px solid lightgray;
+
+        }
+
+        .link {
+            display: flex;
+            margin: 10px 0 0px 0;
+            display: inline;
+
+        }
+
+        .name {
+            font-size: 40px;
+            line-height: 1;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 300;
+            color: blue;
+        }
+
+        a {
+            color: blueviolet;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            font-style: oblique;
+        }
+
+        .skill {
+
+            display: grid;
+            grid-template-columns: 140px 140px 140px;
+            grid-gap: 50px;
+            margin-bottom: 50px;
+            margin-left: 10px;
+
+        }
+
+        .skill ul li {
+            /*display: inherit;*/
+            text-transform: inherit;
+        }
+
+        .skill ul {
+            padding: 25px;
+            border: 2px solid white;
+            background-color: #eeeeee;
+            list-style-type: square;
+        }
+
+        section {
+            /*display:grid;*/
+            grid-template-columns: 600px 350px;
+            grid-gap: 1px;
+            padding: 20px 94px;
+            border-bottom: 2px solid royalblue;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        .section {
+            /*font-weight: bold;*/
+            /*font-size: 18px;*/
+        }
+
+        .gallery {
+            height: 450px;
+            margin: auto;
+            border: 1px solid white;
+            width: 1150px;
+
+        }
+
+        .gallery:hover {
+            border: 2px solid red;
+        }
+
+        h1 {
+            padding-left: 30px;
+        }
+    </style>
+    <link href="/font_style/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body style="background-color: beige;margin-left: 30px">
+<div>
+    <nav style="margin-left: inherit">
+        <ul>
+            <li>
+                <a href="index.html"> Home </a>
+            </li>
+            <li>
+                <a href="resume.html"> Resume</a>
+            </li>
+            <li>
+                <a href="list.html"> List</a>
+            </li>
+            <li>
+                <a href="table.html"> Table</a>
+            </li>
+            <li>
+                <a href="contact.html"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div>
+
+    <div>
+        <div><img alt="Photom" src="img/2121.png"></div>
+
+        <div>
+            <div class="name" id="up">Kursad OZDUMAN</div>
+            <div class="title">Software Analyser & Developer</div>
+            <div><a class="link" href="http://google.ca">kursatoz.ca</a>
+                <a class="link" href="mailto:kursad.ozduman@georgebrown.ca">MailtoMe</a>
+                <a class="link" href=" 4379878600">Phone:437-987-86-00</a>
+            </div>
+        </div>
+
+
+        <div><a href="#down"> <img alt="jump to down" class="img" src="img/down.png"></a></div>
+        <div>
+            <div class="baslik">HIGHLIGHTS of QUALIFICATIONS</div>
+            <div>
+                <p class="palace">
+                    ● Fluent in English, Russian, and Turkish <br>
+                    ● Excellent communication and interpersonal skills<br>
+                    ● Attention to detail, and persistence to deliver reports on time<br>
+                    ● Respectful and sensitive with clients from very diverse backgrounds<br>
+                    ● Reliable, self-motivated, flexible, adaptable and an excellent team player<br>
+                    ● Able to work in fast-paced settings with excellent organizational skills<br>
+                    ● Experienced as computer technician<br>
+                    ● Thorough knowledge of computer systems and IT components<br>
+                    ● Good knowledge of internet security and data privacy principles<br>
+                    ● Able to maintain excellent rapport with customers and co-workers<br>
+                    ● Excellent problem solving skills with the ability to get things done in a timely manner<br>
+                    ● Able to handle heavy equipment<br>
+                    ● Able to read and understand technical manuals<br>
+                    ● Have good knowledge of mechanical devices<br>
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div><a href="#up"> <img alt="jump to up" class="img" src="img/up.png"></a></div>
+            <div><a href="#down"> <img alt="jump to down" class="img" src="img/down.png"></a></div>
+            <div class="baslik"> EMPLOYMENT BACKGROUND</div>
+
+            <div>
+                <div class="palace">Nile Academy – North York, Canada</div>
+                <div class="job">ICT Teacher & IT Manager</div>
+                <div class="date">2018-2019</div>
+
+                <div class="palace">Silk Road International School- Bishkek, Kyrgyzstan</div>
+                <div class="job">ICT Teacher & Assistant Director</div>
+                <div class="date">2010-2017</div>
+
+                <div class="palace">Sebat Educational Institution- Bishkek, Kyrgyzstan</div>
+                <div class="job">Staff manager & IT manager</div>
+                <div class="date">2008-2010</div>
+
+                <div class="palace">Sebat High School- Bishkek, Kyrgyzstan</div>
+                <div class="job">IT Manager & ICT Teacher</div>
+                <div class="date">2005-2008</div>
+            </div>
+        </div>
+
+
+        <div><a href="#up"> <img alt="jump to up" class="img" src="img/up.png"></a></div>
+        <div><a href="#down"> <img alt="jump to down" class="img" src="img/down.png"></a></div>
+        <div class="baslik"> EDUCATION</div>
+        <div class="palace">George Brown College Faculty of Technology</div>
+        <div class="job">Advantage Diploma- Computer Programmer Analyst</div>
+        <div class="date"> January 2020</div>
+        <div class="palace">Kyrgyz-Turk Manas University, Bishkek, Kyrgyzstan</div>
+        <div class="job">Master Degree Educational Science</div>
+        <div class="date">June 2010</div>
+        <div class="palace">Kyrgyz-Turk Manas University, Bishkek, Kyrgyzstan</div>
+        <div class="job">Bachelor of Computer Science Engineer</div>
+        <div class="date">June 2005</div>
+
+
+        <div><a href="#up"> <img alt="jump to up" class="img" src="img/up.png"></a></div>
+        <div><a href="#down"> <img alt="jump to down" class="img" src="img/down.png"></a></div>
+
+        <div class="baslik"> ACTIVITIES & CERTIFICATIONS</div>
+        <div>
+            <ul class="palace">
+                <li>ICDL/ECDL 1.0 Certificate in English Outlook-Excel(2013)-Word(2013)-Windows7
+
+                    <ul>
+                        <li class="date">2018</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="palace">
+                <li>Cambridge IGCSE Information & Communication Technology Certificate of completion Cambridge
+                    Assessment International Education
+
+                    <ul>
+                        <li class="date">2017</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="palace">
+                <li>Student & Life Coaching Certificate at Brussels Capital University
+
+                    <ul>
+                        <li class="date">2017</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="palace">
+                <li>Communicative & Methodology Certificate at Oxford University
+
+                    <ul>
+                        <li class="date">2017</li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div><a href="#up"> <img alt="jump to up" class="img" src="img/up.png"></a></div>
+        <div><a href="#down"> <img alt="jump to down" class="img" src="img/down.png"></a></div>
+        <div class="baslik">SKILLS</div>
+        <table id="skill_table">
+            <tr>
+                <td>Favorite Subjects</td>
+                <td>Software Programs</td>
+                <td>Project Manager Tools</td>
+            </tr>
+        </table>
+        <div class="skill">
+
+
+            <ul>
+
+                <li>Math</li>
+                <li>Physics</li>
+                <li>English</li>
+                <li>Business</li>
+                <li>Web</li>
+            </ul>
+            <ul>
+                <li>CSS</li>
+                <li>C#</li>
+                <li>JS</li>
+                <li>HTML</li>
+            </ul>
+            <ul>
+                <li>JIRA</li>
+                <li>AGILE</li>
+                <li>POSTMAN</li>
+                <li>SCRUM</li>
+                <li>SDLC</li>
+            </ul>
+
+            </ul>
+        </div>
+
+
+    </div>
+    <hr>
+
+
+    <div><a href="#up"> <img alt="jump to up" class="img" src="img/up.png"></a></div>
+
+    <div class="baslik" id="down">Photo Gallery</div>
+
+    <div class="gallery">
+        <a href="img/2a.jpg" target="_blank">
+            <img alt="Picture2" height="400" src="img/web_2.jpg" width="300">
+        </a>
+        <a href="img/3a.jpg" target="_blank">
+            <img alt="Picture3" height="400" src="img/web_3.jpg" width="300">
+        </a>
+        <a href="img/1a.jpg" target="_blank">
+            <img alt="Picture1" height="400" src="img/web_1.jpg" width="300">
+        </a>
+
+    </div>
+    <caption id="cap_img">Click for bigger</caption>
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+    <a href="peerReviewFormA2%20kursad.pdf" style="color: #ff253a;margin-left: 500px"> Download for Review</a>
+</body>
+</html>

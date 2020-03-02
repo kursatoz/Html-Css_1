@@ -1,0 +1,237 @@
+
+body {
+    margin-right: 300px;
+    /*margin-left: 100px;*/
+    margin-top: 130px;
+    /*padding: 100px;*/
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 88px;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0px;
+    font-size: 26pt;
+}
+
+#backimg {
+
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img_table {
+    border: 3px solid royalblue;
+
+}
+
+#img {
+
+    height: 150px;
+    width: 150px;
+}
+
+nav ul li {
+    /*position: fixed;*/
+    text-transform: uppercase;
+    padding: 15px;
+    height: 20px;
+    background-color: cadetblue;
+    font-size: 24pt;
+    text-align: center;
+    list-style: none;
+    display: inline;
+
+}
+
+ul:hover li a {
+    transform: scale(1.2);
+    opacity: 0.2;
+    filter: blur(0px);
+}
+
+ul li a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0px);
+
+}
+
+#list2 li {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+
+ul li a :before {
+    content: '';
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: indianred;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+h2 {
+    color: snow;
+    font-size: 24pt;
+    font-style: oblique;
+}
+
+
+a {
+    text-decoration: none;
+    /*position:relative;*/
+    padding: 25px;
+}
+
+
+#center_text {
+    margin-left: 50px;
+    font: 25pt "Times New Roman";
+    color: white;
+}
+
+#table1 td, th, tr {
+    border: 2px;
+    border-color: #ff253a;
+    border-style: solid;
+    color: #ff253a;
+}
+
+.table2 td, th, tr {
+    border: black;
+    border-style: solid;
+
+}
+
+.table, td {
+    border-spacing: 20px 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+#botton {
+    position: fixed;
+    bottom: 10px;
+
+}
+
+#td_border {
+    border: 2px red;
+}
+
+#li_style_c {
+    list-style-type: circle;
+}
+
+.list_square {
+    list-style-type: square;
+}
+
+.list_in {
+    list-style-type: circle;
+}
+
+.table_table {
+    border: 2px solid darkred;
+}
+
+.cap {
+    caption-side: bottom;
+
+}
+
+#first_p {
+    margin-top: 8%;
+    margin-left: 100px;
+}
+
+#script {
+    position: inherit;
+    padding-bottom: 1000px;
+    bottom: 30px;
+    width: 100%;
+}
+
+.subjects {
+    display: inherit;
+    font-family: "Adobe Gothic Std B";
+    font-size: 14pt;
+    color: chocolate;
+}
+
+#skill_table td {
+    display: inline;
+    border: none;
+    padding: 11px;
+    font-size: 14pt;
+
+}
+
+#cap_img {
+
+    font-size: 205pt;
+    caption-side: bottom;
+    color: aliceblue;
+}
+
+.home_img {
+    width: 250px;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.tr_underline tr > :first-child {
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.text_vert {
+    font-style: unset;
+    /*-webkit-transform: rotate(90deg);*/
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+
+#text_verr {
+    writing-mode: vertical-rl;
+    vertical-align: center;
+}
+
+#text_verl {
+    writing-mode: vertical-rl;
+}
+
+#text_verc {
+    writing-mode: vertical-lr;
+}
+
+.text_aling_center {
+    text-align: center;
+}
+
+.text_aling_left {
+    text-align: left;
+}
+
+.text_aling_right {
+    text-align: right;
+}
+
+.table_last {
+    border-spacing: 10px 5px;
+    padding: 8px;
+}
